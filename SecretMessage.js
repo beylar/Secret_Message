@@ -16,5 +16,18 @@ secretMessage.push('to', 'Program');
 let easilyIndex = secretMessage.indexOf('easily');
 //replace it by right
 secretMessage[easilyIndex] = 'right';
-console.log(secretMessage);
+//console.log(secretMessage);
+
+//remove first string of the array
+secretMessage.shift();
+
+//put first string of the array
+secretMessage.unshift('Programming');
+
+//remove five elements from index 6 
+secretMessage.splice(6, 5, 'know');
+
+//put the strings together to form a sentence using .join
+console.log(secretMessage.join(' '));
+
 

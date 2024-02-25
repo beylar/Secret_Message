@@ -1,11 +1,10 @@
-let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'easily', 'the', 'first', 'time,', 'it', 'is', 'about', 'what', 'you', 'can', 'figure', 'out.', '-2015,',
- 'Chris', 'Pine,', 'Learn', 'JavaScript'];
+let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'easily', 'the', 'first', 'time,', 'it', 'is', 'about', 'what', 'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
+
+//find the length of the array
 console.log(secretMessage.length);
-secretMessage.pop(23);
-//console.log(secretMessage);
-secretMessage.push('wordOne','wordTwo');
-secretMessage[7]='right';
-secretMessage.shift('Learning');
-secretMessage.unshift('Programming');
-secretMessage.splice(6,5,'know');
+//remove the last element of the array
 console.log(secretMessage);
+secretMessage.pop();
+//after removing the last element
+console.log(secretMessage);
+
